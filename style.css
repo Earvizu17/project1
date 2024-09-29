@@ -1,46 +1,75 @@
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown2 {
-    position: relative;
-    display: inline-block;
-}
-  
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-.dropdown-dura {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-  
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-.dropdown2:hover .dropdown-dura {
-    display: block;
-}
-span{
+h1{
+    margin-left: 33%;
     color:white;
-    font-size: 30px;
-}
-.durspan{
-    color:white;
-    font-size: 30px;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: red;
 }
 
-h1{
+.header{
+    margin-left: 45%;
+}
+.text{
+    margin-left: 22%;
+    margin-right: 22%;
+}
+
+.tablinks{
+    margin-left: 15.5%;
+}
+
+.pages{
+    padding: 12px 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: pink;
+}
+
+.tab{
+    border: 0px solid #ccc;
+    background-color: black;
+}
+
+.tab button{
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color: white;
+}
+
+.tab button:hover {
+    background-color: lightgreen;
+}
+
+.tab button.active {
+    background-color: cornflowerblue;
+}
+
+.tabcontent {
+    margin-top: 5%;
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    animation: fadeEffect 2.5s;
     color:white;
+    font-size: 20px;
+}
+
+@keyframes fadeEffect{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.topright:hover {
+    color: red;
+}
+.topright{
+    float:right;
+    cursor: pointer;
+    font-size: 30px;
+    margin-right: 40%;
 }
