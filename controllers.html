@@ -5,52 +5,74 @@
     <link type="text/css" rel="stylesheet" href="style2.css"/>
     <script src="script.js"></script>
     <body>
-        <style>
-            body{
-                background-color: black;
-            }
-        </style>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(1)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="https://battlebeavercustoms.com/">Battle Beaver</a>
+            <a href="index.html">Overview</a>
+            <a href="modifiers.html">Modifiers</a>
+            <button class="dropdown-btn">Custom/Extras <i class="fa fa-caret-down"></i></button>
+              <div class="dropdown-container">
+                <a href="https://battlebeavercustoms.com/pages/ps5-builder">PS5</a>
+                <a href="https://battlebeavercustoms.com/pages/ps4-builder">PS4</a>
+                <a href="https://battlebeavercustoms.com/collections/pre-built-refurbished-controllers?filter.p.m.controller.type=Xbox+One">Xbox One</a>
+                <a href="https://battlebeavercustoms.com/pages/xsx-builder">Xbox series x</a>
+                <a href="https://battlebeavercustoms.com/collections/pre-built-refurbished-controllers?filter.p.m.controller.type=Switch+Pro">Switch Pro</a>
+                <a href="https://battlebeavercustoms.com/collections/pre-built-refurbished-controllers?filter.p.m.controller.type=GameCube">Gamecube</a>
+              </div>
+        </div>
+        <span style="font-size: 30px;cursor:pointer;color:white" onclick="openNav()">&#9776; Open</span>
+        <div>
+            <style>
+                body{
+                    background-color: black;
+                    font-family: "Lato", sans-serif;
+                }
+            </style>
+        </div>
         <script>
             window.onload = function() {
-            showSlides();
-        }
+                showSlides();
+            }
         </script>
-        <a href="https://battlebeavercustoms.com/"><button class="pages">Battle beaver</button></a>
-        <a href="index.html"><button class="pages">Overview</button></a>
-        <a href="modifiers.html"><button class="pages">Modifiers</button></a>
         <h1>Controller Variety</h1>
         <p>Enjoy the Slide Show</p>
 
         <div class="slideshow-container">
 
         <div class="mySlides fade">
-        <div class="numbertext">1 / 6<br class="type">PS4 Design</div>
-        <img src="pictures/ps4c1.png" style="width: 100%">
+            <div class="numbertext">1 / 6<br class="type">PS4 Design</div>
+            <img src="pictures/ps4c1.png" style="width: 100%">
+            <a href="https://battlebeavercustoms.com/products/ps4-refurbished-controller-1659?_pos=12&_fid=b322f0f9f&_ss=c"><button class="shop">Shop Now</button></a>
         </div>
 
         <div class="mySlides fade">
-        <div class="numbertext">2 / 6<br class="type">PS5 Design</div>
-        <img src="pictures/ps5c1.png" style="width: 100%">
+            <div class="numbertext">2 / 6<br class="type">PS5 Design</div>
+            <img src="pictures/ps5c1.png" style="width: 100%">
+            <a href="https://battlebeavercustoms.com/products/dualsense-refurbished-controller-892?_pos=11&_fid=34de5d57d&_ss=c"><button class="shop">Shop Now</button></a>
         </div>
 
         <div class="mySlides fade">
-        <div class="numbertext">3 / 6<br class="type">Xbox One Design</div>
-        <img src="pictures/xbox1.png" style="width:100%">
+            <div class="numbertext">3 / 6<br class="type">Xbox One Design</div>
+            <img src="pictures/xbox1.png" style="width:100%">
+            <a href="https://battlebeavercustoms.com/products/xbox-one-refurbished-controller-169?_pos=2&_fid=8ccd901f7&_ss=c"><button class="shop">Shop Now</button></a>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">4 / 6<br class="type">Xbox Series X Design</div>
             <img src="pictures/xboxs1.png" style="width:100%">
+            <a href="https://battlebeavercustoms.com/products/xbox-series-x-refurbished-controller-556?_pos=8&_fid=e0767b7f3&_ss=c"><button class="shop">Shop Now</button></a>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">5 / 6<br class="type">Switch Pro Design</div>
             <img src="pictures/switchpro1.png" style="width:100%">
+            <a href="https://battlebeavercustoms.com/products/switch-pro-pre-built-controller-54?_pos=1&_fid=8765f0c72&_ss=c"><button class="shop">Shop Now</button></a>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">6 / 6<br class="type">GameCube Design</div>
             <img src="pictures/gamecube1.png" style="width: 100%">
+            <a href="https://battlebeavercustoms.com/products/nintendo-gamecube-pre-built-controller-302?_pos=1&_fid=e7449d47e&_ss=c"><button class="shop">Shop Now</button></a>
         </div>
 
         </div>
