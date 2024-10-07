@@ -5,11 +5,12 @@ h1{
 
 .header{
     margin-left: 45%;
+    color:#007bff
 }
 .text{
     margin-left: 22%;
     margin-right: 22%;
-    color: black;
+    color: #007bff;
 }
 
 .tablinks{
